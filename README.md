@@ -4,7 +4,7 @@ This tutorial shows you how to build a custom paymaster that allows users to pay
 - Create a paymaster that will take `mockUSDC` as gas to cover the transaction cost.
 - Create the `mockUSDC` token contract and send some tokens to a new wallet.
 - Send a `setGreeting` transaction to update the greeting from the newly created wallet via the paymaster. Although the transaction normally requires ETH to pay the gas fee, our paymaster executes the transaction in exchange for the same `mockUSDC` value.
-- Utilize API3 Data Feeds within a paymaster.
+- Utilize [API3 Data Feeds](https://api3.org/) within a paymaster.
 
 The project was scaffolded with [zksync-cli](https://github.com/matter-labs/zksync-cli).
 ZkSync tutorial can be found [here](https://era.zksync.io/docs/dev/tutorials/api3-usd-paymaster-tutorial.html).
