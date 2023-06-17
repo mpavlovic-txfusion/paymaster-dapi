@@ -7,6 +7,7 @@ This tutorial shows you how to build a custom paymaster that allows users to pay
 - Utilize API3 Data Feeds within a paymaster.
 
 The project was scaffolded with [zksync-cli](https://github.com/matter-labs/zksync-cli).
+ZkSync tutorial can be found [here](https://era.zksync.io/docs/dev/tutorials/api3-usd-paymaster-tutorial.html).
 
 ## Project structure
 
